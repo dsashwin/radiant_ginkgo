@@ -1,14 +1,14 @@
 #
 # Copyright (C) 2020 ArrowOS
-# Copyright (C) 2021 NezukoOS
+# Copyright (C) 2021 Project Radiant
 #
 # SPDX-License-Identifier: Apache-2.0
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/nezuko_ginkgo.mk
+    $(LOCAL_DIR)/radiant_ginkgo.mk
 
 COMMON_LUNCH_CHOICES := \
-    nezuko_ginkgo-user \
-    nezuko_ginkgo-userdebug \
-    nezuko_ginkgo-eng
+    radiant_ginkgo-user \
+    radiant_ginkgo-userdebug \
+    radiant_ginkgo-eng

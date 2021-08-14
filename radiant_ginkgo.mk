@@ -1,6 +1,6 @@
 #
 # Copyright (C) 2020 ArrowOS
-# Copyright (C) 2021 NezukoOS
+# Copyright (C) 2021 Project Radiant
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -24,15 +24,15 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 # Inherit from ginkgo device
 $(call inherit-product, device/xiaomi/ginkgo/device.mk)
 
-# Inherit some common NezukoOS stuff
+# Inherit some common Project Radiant stuff
 TARGET_BOOT_ANIMATION_RES := 1080
-$(call inherit-product, vendor/nezuko/config/common_full_phone.mk)
+$(call inherit-product, vendor/radiant/config/common_full_phone.mk)
 
 PRODUCT_PRODUCT_PROPERTIES += \
-ro.nezuko.cpu=trinket
+ro.radiant.cpu=trinket
 
 # Device identifier
-PRODUCT_NAME := nezuko_ginkgo
+PRODUCT_NAME := radiant_ginkgo
 PRODUCT_DEVICE := ginkgo
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 8
