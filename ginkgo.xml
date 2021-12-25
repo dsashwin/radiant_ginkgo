@@ -13,13 +13,5 @@
     <!-- Kernel tree and clang -->
     <project name="ArrowOS-Devices/android_kernel_xiaomi_ginkgo" path="kernel/xiaomi/ginkgo" remote="github" revision="arrow-12.0" clone-depth="1" />
     <project name="ThankYouMario/proprietary_vendor_qcom_sdclang" path="prebuilts/clang/host/linux-x86/clang-sdllvm" remote="github" revision="ruby-12" clone-depth="1" />
-
-    <!-- Needed custom HALs -->
-    <remove-project name="LineageOS/android_hardware_qcom_audio" />
-    <remove-project name="LineageOS/android_hardware_qcom_display" />
-    <remove-project name="LineageOS/android_hardware_qcom_media" />
-    <project path="hardware/qcom-caf/sm8150/audio" name="ArrowOS/android_hardware_qcom_audio" remote="github" revision="arrow-12.0-caf-sm8150" />
-    <project path="hardware/qcom-caf/sm8150/display" name="ArrowOS/android_hardware_qcom_display" remote="github" revision="arrow-12.0-caf-sm8150"  />
-    <project path="hardware/qcom-caf/sm8150/media" name="ArrowOS/android_hardware_qcom_media" remote="github" revision="arrow-12.0-caf-sm8150"  />
     
 </manifest>
